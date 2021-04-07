@@ -1,0 +1,45 @@
+// dashboard
+.dashboard {
+  .project.complete {
+    border-left: 4px solid #3cd1c2;
+  }
+  .project.ongoing {
+    border-left: 4px solid orange;
+  }
+  .project.overdue {
+    border-left: 4px solid tomato;
+  }
+  .v-chip.complete {
+    background: #3cd1c2 !important;
+  }
+  .v-chip.ongoing {
+    background: #ffaa2c !important;
+  }
+  .v-chip.overdue {
+    background: #f83e70 !important;
+  }
+}
+
+// team
+.team {
+  .v-card {
+    text-align: center;
+  }
+}
+
+// Page404
+.page404 {
+  .container {
+    place-items: center;
+    display: grid;
+
+    h1 {
+      color: rgb(153, 152, 152);
+      font-size: 70px;
+    }
+    h2 {
+      color: rgb(153, 152, 152);
+      font-size: 40px;
+    }
+  }
+}
